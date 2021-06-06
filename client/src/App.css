@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+@media only screen and (min-width:360px) and (max-width:490px){
+  * {
+    padding: 0;
+  }
+
+  main {
+    height:100vw;
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .form {
+    padding: 0.5rem;
+    margin: 4vw;
+  }
+
+  .form input{
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 1vw;
+  }
+}
+
+#todxs-img {
+ width: 90vw;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.text-light {
+  color:azure;
+}
+.form input {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
